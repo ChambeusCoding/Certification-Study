@@ -1,0 +1,36 @@
+Create a command-line based Student Management System that allows users (like school staff) 
+to add, update, delete, search, and sort students by various criteria (like name, age, or grades). 
+Incorporate file persistence and use object-oriented design.
+
+Add Student
+
+Update Student Info
+
+Delete Student
+
+List All Students
+
+Search Students (by name, ID, etc.)
+
+Sort by GPA, Name, or Age
+
+Save/Load Data from File
+
+Basic User Login with Hardcoded Credentials (Optional: for encapsulation & basic Scanner I/O)
+
+Bonus Challenges:
+Use Interfaces for export options (Exportable) — for example: CSV or JSON
+
+Create a Menu System using a loop and switch-case
+
+Add unit tests with JUnit for your methods
+
+Include JavaDocs for your classes/methods
+
+Use LocalDate and calculate age from DOB
+
+
+
+
+###ChannelLog1###
+
