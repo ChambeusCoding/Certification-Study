@@ -27,16 +27,21 @@ public class Student {
         return gpa;
     }
 
-    public void setName() {
+    // Corrected setters with parameters to update instance variables
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setAge() {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public void setStudentId() {
+    public void setStudentId(String studentId) {
         this.studentId = studentId;
+    }
+
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
     }
 
     @Override
@@ -44,5 +49,4 @@ public class Student {
         return String.format("Student ID: %s | Name: %s | Age: %d | GPA: %.2f", 
                 studentId, name, age, gpa);
     }
-
 }
